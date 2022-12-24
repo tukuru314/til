@@ -18,7 +18,7 @@
 	おしまい　めでたしめでたし
 	あとは下のリンクみとけ 
 
-	[github.com/yuu-eguci](https://github.com/yuu-eguci/til/blob/b07a89a7fa710b4c7cd93f65329a5efc4956c086/49_Environment/(2018-04-06)SublimeText3ノート.md)
+[リンク](https://github.com/yuu-eguci/til/blob/b07a89a7fa710b4c7cd93f65329a5efc4956c086/49_Environment/(2018-04-06)SublimeText3ノート.md)
 
 
 ## 日本語化
