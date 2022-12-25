@@ -34,6 +34,16 @@
 
 HTMLでどう見えるのか確認するのに必要
 
+
+>Ctrl  + Alt  + o(オー)  
+>編集したマークダウンをプレビューできる 
+
+>Ctrl+Alt+X  
+>Markdown が HTML ファイルに変換され、Markdown ファイルと同じディレクトリに出力
+
+>Ctrl+Alt+C  
+>Markdown が HTML に変換され、クリップボードにコピー
+
 [auto-save]()
 
 CTRL + S が面倒だよねってときに使える
@@ -68,8 +78,12 @@ auto-saveのプラグインがうまくいかないとき
 
 インシデントの追加・削除
 
-	追加	 : CTRL + ]
-	削除	 : CTRL + [
+	CTRL + ]  
+	tab
+
+	CTRL + [  
+	shift + tab
+
 
 
 詳しくは下
