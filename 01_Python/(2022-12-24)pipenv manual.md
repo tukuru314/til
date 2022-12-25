@@ -24,7 +24,7 @@ python -m pip install pipenv
 
 仮想環境を作りたいフォルダを開く
 	↓
-ターミナルを起動
+ターミナルを起動  
 （そうすれば作りたい場所の[ディレクトリ](#つまづきやすそうな用語集)に移動できるため）
 
 	pipenv install
@@ -36,7 +36,7 @@ python -m pip install pipenv
 
 	pipenv install 〇〇 
 
-で、必要な[パッケージ](#つまづきやすそうな用語集)をインストールする
+で、必要な[パッケージ](#つまづきやすそうな用語集)をインストールする  
 〇〇に必要なパッケージの名前を入れる
 
 例えば pipenv install pyautogui とかね。
@@ -64,14 +64,14 @@ https://github.com/yuu-eguci/til/blob/master/01_Python/(2019-08-23)PipenvNote.md
 
 	pipenv shell
 
-上記コマンドを打つと　通常のpythonを動かすような感じで仮想環境を使うことができる
+上記コマンドを打つと　通常のpythonを動かすような感じで仮想環境を使うことができる  
 たとえば pip list と打てばパッケージ一覧がでるし、python 〇〇.pyと打てばpyが実行できる
 
-pipenv shell を打ち込んで仮想環境に入った状態は
+pipenv shell を打ち込んで仮想環境に入った状態は  
 基本的にpipenv run を毎回打っているのと同じ意味になる
 
-すごく便利なのだが　ここでpip install をしてしまうとpipfileに
-書き込みがされず、何をインストールしたのか管理が大変になってしまうので
+すごく便利なのだが　ここでpip install をしてしまうとpipfileに  
+書き込みがされず、何をインストールしたのか管理が大変になってしまうので  
 できるだけ使わないこと
 
 ちなみに
@@ -84,9 +84,9 @@ pipenv shell を打ち込んで仮想環境に入った状態は
 
 ※補足
 
-pipenv shell の仮想環境内で pipenv install 〇〇
-が使えたのでもしかしたらこれが最適解かもしれない
-でもミスってpip installって打っちゃう可能性もあるのでなんともいえない。
+pipenv shell の仮想環境内で pipenv install 〇〇  
+が使えたのでもしかしたらこれが最適解かもしれない  
+でもミスってpip installって打っちゃう可能性もあるのでなんともいえない。  
 お好みで。
 
 
