@@ -7,7 +7,7 @@
 	
 - 戻る・進む
 	
-	ALT + ←
+	ALT + ←  
 	ALT + →
 
 
@@ -15,7 +15,7 @@
 
 - タブの変更
 
-	Ctrl + PgUp
+	Ctrl + PgUp  
 	Ctrl + PgDn
 
 
