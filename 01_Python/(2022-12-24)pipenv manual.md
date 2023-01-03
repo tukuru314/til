@@ -9,9 +9,9 @@ pythonの実行環境やパッケージを管理できるすげぇやつ。
 
 下記コマンドを使う
 
-python -m pip install pipenv
+`python -m pip install pipenv`
 
-（pip install pipenv で入れる方法もあるけどほぼ同じ）
+（`pip install pipenv` で入れる方法もあるけどほぼ同じ）
 
 普段使ってる[ターミナル](#つまづきやすそうな用語集)に入れてENTER
 
@@ -27,30 +27,61 @@ python -m pip install pipenv
 ターミナルを起動  
 （そうすれば作りたい場所の[ディレクトリ](#つまづきやすそうな用語集)に移動できるため）
 
-	pipenv install
+`pipenv install`
 
 を入力実行
 
 
 [パッケージのインストール]
 
-	pipenv install 〇〇 
+`pipenv install 〇〇 `
 
 で、必要な[パッケージ](#つまづきやすそうな用語集)をインストールする  
 〇〇に必要なパッケージの名前を入れる
 
-例えば pipenv install pyautogui とかね。
+例えば `pipenv install pyautogui` とかね。
 
 
 [pythonの実行]
 
-	pipenv run python 〇〇.py
+`pipenv run python 〇〇.py`
 
 で、パイソンを実行できる
 
 〇〇.py の場所は同じフォルダの中にいれておこうね。  
 (やり方次第では、違うフォルダにあっても使えるとは思うけど)
 
+
+## 仮想環境を消したいとき
+
+まず仮想環境のvirtualenvってフォルダの中に仮想環境一覧が作られているので
+その場所を知る必要がある
+
+`pipenv --venv`
+
+上記のコマンドでそれがどこにつくられているのかわかる
+
+次にその仮想環境一覧の消したい仮想環境を消すわけだが
+直接消しにいってもいいし
+
+`pipenv --rm`
+
+上記コマンドを
+
+`pipenv run python 〇〇.py`
+
+上のコマンドを使っていたディレクトリで
+実行しても消える
+(--rmのほうが確実にアンインストールできると思う)
+
+逆に仮想環境一覧のほうの仮想環境から
+
+`.projectt`
+
+と書いてあるフォルダの中身をメモ帳などで開いて見ると
+どこに仮想環境を作ったかを見れる
+
+仮想環境を乱立してどれがどれかわからなくなった時の確認におすすめ
 
 
 ## 細かいコマンドについて
