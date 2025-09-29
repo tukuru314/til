@@ -9,6 +9,20 @@ setting->General->Danger Zone->change visible
 https://yu-report.com/entry/githubprivate/
 
 
+## VSCODEでGITを使うには
+
+基本的にはまずプロジェクトにあたるフォルダを作成して
+そこでgit init　をCLI上でうってGITの基本を作成する
+
+それでローカルレポジトリが作られる。
+
+GITHUBのアカウントにそのローカルレポジトリを
+リモートレポジトリへと追加したい場合はCtrl+Shift+PでGITHUBに公開を選べば
+追加することができる
+
+もちろんローカルレポジトリだけでバージョン管理してもよい
+
+
 ## .gitatrributesファイル
 
 LINUXとMACとWINの改行をうまいこと調整するためのファイルらしい　
